@@ -98,7 +98,8 @@
                                     class="text-blue-500 hover:underline font-semibold">Github Codespaces</a> 접속</li>
                             <li>우상단 <strong>프로필</strong> <i class="fas fa-arrow-right text-xs mx-1"></i>
                                 <strong>Settings</strong> <i class="fas fa-arrow-right text-xs mx-1"></i> 좌측
-                                <strong>Codespaces</strong> 선택</li>
+                                <strong>Codespaces</strong> 선택
+                            </li>
                             <li><strong>Default idle timeout</strong>을 <span
                                     class="text-rose-500 font-bold">240min</span>으로 설정</li>
                             <li><strong>Jupyter Notebook 템플릿</strong>을 선택하여 클라우드 환경 접속</li>
@@ -203,7 +204,7 @@
         // 🔐 암호화된 API Key 데이터
         // encrypt_keys.py로 생성한 base64 문자열을 아래에 붙여넣으세요.
         // =========================================================================
-        const ENCRYPTED_DATA = "hjKJzEWDmZYwZT+xq6kunRYx/EtNHI0upNTMcqK7SnvZ3Gv1Mj5Ek1YqHtsXDBeOvMVV03NMCt6X+lQJKraYk+DFe7VXySJoFueykD3drJIkDvS4J+pvRaQLv7TZbAYc1T7DqY3PzQDn2OhYYz/L4/qykKRFL3GhrXDQ7xZFChOGEUMsM7OpFLyYn473ntmNAywkn0A1mBnrEdpKeaMqQj+XDGzd5K/Mzk+gnaZmqSH72U8Lg3KydDg2n+me1RacXnDRl2cOc8ouuS7Q4ZWBnOq5lM3jQf3LrEXAHzarg/2bFUJEEvvFWqMTDFcuGyqPI52dz+FpW307HWMlBAC7vkuYcDnhcypR/A==";  // ← 여기에 암호화된 문자열 붙여넣기
+        const ENCRYPTED_DATA = "UDN3n062b6+k4f62uypTbZnCcr/jtz6BPfVTRz6O23S5ZpaaHTjFm/RmL2ZUXrBAV+8/B6gszxxTFu6004Jkw1HKsmdxCn4bqwd3ERjDq9lj0k3604YPGyrNnIdPencL4vwXnrSBt+ryuYEHw2eOoCH6Aq4sDKOjUtyk4nOSYNeOwcPe9ZzJY5wiMkfZ7U0VUcGzfg3hmVx6WyaM2KknLjZ+Z/tbCl5rn43+JMv4cwgxeWI73B9GuxVaos1uHfdzy+Hn9+dN3BpF3PboPy43auiY8J85fK6XPvuX4JG/CiaBXHJUtfKaexDywmb/v/HbhWviUyTDXsVlkhVQZZR65Q4TYQYhgz6mfQ==";  // ← 여기에 암호화된 문자열 붙여넣기
 
         async function deriveKey(password, salt) {
             const enc = new TextEncoder();
